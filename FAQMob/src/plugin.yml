@@ -1,0 +1,6 @@
+name: FAQMob
+author: giantcrack
+version: 1.0
+main: me.giantcrack.fm.me.giantcrack.bs.Main
+commands:
+    spawnfaq:

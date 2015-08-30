@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+me.giantcrack.bs.Main-Class: me.giantcrack.ii.me.giantcrack.bs.Main
+

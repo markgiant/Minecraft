@@ -1,0 +1,7 @@
+name: MattKits
+author: giantcrack
+version: 1.0
+main: me.giantcrack.mk.Main
+description: A kit plugin
+commands:
+    upgrade:

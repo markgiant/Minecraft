@@ -1,0 +1,5 @@
+name: MattAntiDupe
+author: giantcrack
+version: 1.0
+main: me.giantcrack.mad.Main
+description: Stops duping

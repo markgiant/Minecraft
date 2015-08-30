@@ -1,0 +1,9 @@
+name: BStaff
+author: giantcrack
+version: 1.0
+main: me.giantcrack.bs.Main
+description: A plugin for staff
+permissions:
+   b.staff:
+      default: false
+      description: Perm for the staff

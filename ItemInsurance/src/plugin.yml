@@ -1,0 +1,7 @@
+name: ItemInsurance
+author: giantcrack
+version: 1.0
+main: me.giantcrack.ii.me.giantcrack.bs.Main
+description: An item insurance plugin
+commands:
+    insure:
