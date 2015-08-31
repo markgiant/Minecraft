@@ -1,0 +1,11 @@
+name: MattBan
+author: giantcrack
+version: 1.0
+main: me.giantcrack.mb.Main
+commands:
+    ban:
+    tempban:
+    lookup:
+    unban:
+    pardon:
+    proxyreset:
