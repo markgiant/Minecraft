@@ -1,14 +1,12 @@
 package me.giantcrack.bpvp.elo;
 
 import com.google.common.collect.ImmutableList;
-import me.giantcrack.bpvp.duels.InventoryHandler;
 import me.giantcrack.bpvp.files.Signs;
 import me.giantcrack.bpvp.kits.Kit;
 import me.giantcrack.bpvp.kits.KitManager;
 import me.giantcrack.bpvp.utilities.LocationUtility;
 import org.bukkit.Location;
 import org.bukkit.configuration.ConfigurationSection;
-import org.bukkit.entity.Player;
 
 import java.util.ArrayList;
 import java.util.List;

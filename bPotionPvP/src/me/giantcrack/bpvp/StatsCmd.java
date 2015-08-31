@@ -1,6 +1,6 @@
 package me.giantcrack.bpvp;
 
-import me.giantcrack.bpvp.duels.InventoryHandler;
+import me.giantcrack.bpvp.listeners.InventoryHandler;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;

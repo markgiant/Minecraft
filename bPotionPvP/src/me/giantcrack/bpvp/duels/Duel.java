@@ -6,6 +6,7 @@ import me.giantcrack.bpvp.arenas.Arena;
 import me.giantcrack.bpvp.elo.EloManager;
 import me.giantcrack.bpvp.kits.Kit;
 import me.giantcrack.bpvp.kits.KitManager;
+import me.giantcrack.bpvp.listeners.InventoryHandler;
 import me.giantcrack.bpvp.teams.Team;
 import me.giantcrack.bpvp.teams.TeamManager;
 import me.giantcrack.bpvp.utilities.LocationUtility;
@@ -18,7 +19,6 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.potion.PotionEffect;
-import org.bukkit.scheduler.BukkitRunnable;
 
 import java.util.*;
 

@@ -1,6 +1,6 @@
 package me.giantcrack.bpvp;
 
-import me.giantcrack.bpvp.duels.InventoryHandler;
+import me.giantcrack.bpvp.listeners.InventoryHandler;
 import me.giantcrack.bpvp.que.QueManager;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;

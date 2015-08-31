@@ -1,22 +1,16 @@
 package me.giantcrack.bpvp;
 
-import me.giantcrack.bpvp.duels.Duel;
 import me.giantcrack.bpvp.duels.DuelManager;
 import me.giantcrack.bpvp.duels.DuelState;
-import me.giantcrack.bpvp.duels.InventoryHandler;
-import me.giantcrack.bpvp.kits.KitManager;
-import me.giantcrack.bpvp.teams.Team;
+import me.giantcrack.bpvp.listeners.InventoryHandler;
 import me.giantcrack.bpvp.teams.TeamManager;
 import me.giantcrack.bpvp.utilities.LocationUtility;
-import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.potion.PotionEffect;
-
-import java.util.Iterator;
 
 /**
  * Created by shoot_000 on 7/15/2015.

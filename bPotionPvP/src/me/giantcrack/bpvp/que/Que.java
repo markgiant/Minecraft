@@ -1,7 +1,7 @@
 package me.giantcrack.bpvp.que;
 
 import me.giantcrack.bpvp.arenas.ArenaManager;
-import me.giantcrack.bpvp.duels.InventoryHandler;
+import me.giantcrack.bpvp.listeners.InventoryHandler;
 import me.giantcrack.bpvp.kits.Kit;
 import me.giantcrack.bpvp.teams.TeamManager;
 import org.bukkit.ChatColor;
@@ -9,9 +9,7 @@ import org.bukkit.entity.Player;
 import org.bukkit.scheduler.BukkitRunnable;
 
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 /**
  * Created by shoot_000 on 6/25/2015.

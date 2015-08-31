@@ -1,15 +1,12 @@
 package me.giantcrack.bpvp.elo;
 
-import me.giantcrack.bpvp.duels.InventoryHandler;
 import me.giantcrack.bpvp.files.Signs;
 import me.giantcrack.bpvp.kits.Kit;
-import me.giantcrack.bpvp.kits.KitManager;
 import me.giantcrack.bpvp.utilities.LocationUtility;
 import org.bukkit.ChatColor;
 import org.bukkit.Effect;
 import org.bukkit.Location;
 import org.bukkit.block.Sign;
-import org.bukkit.entity.Player;
 
 /**
  * Created by markvolkov on 8/26/15.

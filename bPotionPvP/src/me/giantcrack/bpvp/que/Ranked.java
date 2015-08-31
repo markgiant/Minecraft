@@ -2,15 +2,12 @@ package me.giantcrack.bpvp.que;
 
 import me.giantcrack.bpvp.duels.DuelManager;
 import me.giantcrack.bpvp.duels.DuelType;
-import me.giantcrack.bpvp.duels.InventoryHandler;
+import me.giantcrack.bpvp.listeners.InventoryHandler;
 import me.giantcrack.bpvp.elo.EloManager;
 import me.giantcrack.bpvp.elo.Range;
 import me.giantcrack.bpvp.kits.Kit;
-import me.giantcrack.bpvp.que.Que;
-import me.giantcrack.bpvp.que.QueType;
 import me.giantcrack.bpvp.teams.Team;
 import me.giantcrack.bpvp.teams.TeamManager;
-import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 
 /**

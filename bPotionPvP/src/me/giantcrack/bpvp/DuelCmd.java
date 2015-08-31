@@ -2,10 +2,8 @@ package me.giantcrack.bpvp;
 
 import me.giantcrack.bpvp.duels.DuelManager;
 import me.giantcrack.bpvp.duels.DuelType;
-import me.giantcrack.bpvp.duels.InventoryHandler;
-import me.giantcrack.bpvp.elo.EloManager;
+import me.giantcrack.bpvp.listeners.InventoryHandler;
 import me.giantcrack.bpvp.kits.Kit;
-import me.giantcrack.bpvp.kits.KitManager;
 import me.giantcrack.bpvp.que.QueManager;
 import me.giantcrack.bpvp.teams.Team;
 import me.giantcrack.bpvp.teams.TeamManager;
@@ -15,7 +13,6 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import org.bukkit.event.Listener;
 
 import java.util.HashMap;
 import java.util.Map;

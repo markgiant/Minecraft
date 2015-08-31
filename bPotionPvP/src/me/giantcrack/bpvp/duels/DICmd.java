@@ -18,7 +18,12 @@ public class DICmd implements CommandExecutor {
         Player p = (Player)commandSender;
         if (command.getName().equalsIgnoreCase("di")) {
             if (strings.length == 1) {
-                DuelInventory di = InventoryManager.get().getInv(Bukkit.getPlayer(strings[0]));
+                Player target = Bukkit.getPlayer(strings[0]);
+                if (target == null) {
+                    p.sendMessage(ChatColor.RED + "That inventory either doesnt exist or has expired!");
+                    return true;
+                }
+                DuelInventory di = InventoryManager.get().getInv(target);
                 if (di == null) {
                     p.sendMessage(ChatColor.RED + "That inventory either doesnt exist or has expired!");
                     return true;
