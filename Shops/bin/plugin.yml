@@ -1,0 +1,14 @@
+name: giantcrack
+author: giantcrack
+version: 1.0
+main: me.giantcrack.gs.Main
+commands:
+    buy:
+    sell:
+    value:
+    bal:
+    balance:
+    economy:
+    convertitems:
+    add:
+    edit:
