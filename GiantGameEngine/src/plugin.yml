@@ -1,0 +1,5 @@
+name: GiantGameEngine
+author: giantcrack
+version: 1.0
+main: me.giantcrack.gge.Main
+description: My og game engine!
